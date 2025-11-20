@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Cliente360 - Gestão Premium de Clientes",
+  title: "Recipay",
   description: "Sistema premium de gestão de clientes com design minimalista",
 };
 
