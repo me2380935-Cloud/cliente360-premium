@@ -1,8 +1,8 @@
-  "use client";
+"use client";
 import { useState } from "react";
 
 export default function Page() {
-  const [activeConfigPage, setActiveConfigPage] = useState(1);
+  const [activeConfigPage, setActiveConfigPage] = useState("");
 
   const [vigilanteData, setVigilanteData] = useState({
     nomeFantasia: '',
@@ -11,7 +11,7 @@ export default function Page() {
     nomeVigilante: '',
     contato: '',
     cpfCnpj: '',
-    chavePix: ''
+    chavePix: '',
   });
 
   return (
